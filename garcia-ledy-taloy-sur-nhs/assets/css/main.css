@@ -36,6 +36,9 @@
   --nav-dropdown-color: #898989; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #b8a07e; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
