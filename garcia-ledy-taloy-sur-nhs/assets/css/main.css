@@ -56,6 +56,23 @@
 :root {
   scroll-behavior: smooth;
 }
+.btn-outline-primary {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+}
+.btn-outline-primary:active,
+.btn-outline-primary:focus {
+  background-color: var(--accent-color) !important;
+  border-color: var(--accent-color) !important;
+  color: white !important;
+  box-shadow: none !important;
+}
 
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
